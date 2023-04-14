@@ -1,0 +1,24 @@
+Array initialization
+
+Array = New int32()    ------------> Value will be added separate assign activity
+Array = New int32() {1,2,3} --------> Value added during declaration only
+Array = New int32(2){1,2,3} ------> (2) indicates index that is fixed we can't use less than or greater than this value
+
+
+List Intialization  :
+
+List = New List (of int32) From {1,2,3,4,5}
+
+List = New List (of int32)  ----> Values can be dynamically using Add collection activity
+
+
+Dictionary intialization:
+
+dict = New dictionary (of String, int32)
+
+
+DataTable intialization:
+
+dT1 = New System.data.datatable -----> (System.data is namespace which is not a mandatory)
+
+dT1 - new DataTable
